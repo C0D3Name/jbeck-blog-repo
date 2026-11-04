@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import { AUTHOR_NAME, LINKEDIN_URL } from '../consts';
+---
+
+<Layout title="About" description={`About ${AUTHOR_NAME}`} pubDate={new Date('2026-11-04')}>
+	<p>About page coming soon.</p>
+	<p>In the meantime, find me on <a href={LINKEDIN_URL}>LinkedIn</a>.</p>
+</Layout>
